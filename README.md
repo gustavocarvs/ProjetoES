@@ -16,14 +16,13 @@ Os tipos de usuário do sistema são clientes e gerentes.<br />
 ### Linguagens de Marcação
     HTML - Versão: 5.0
 ### Linguagens de Script
-    PHP - Versão: 7.4.7
+    PHP - Versão: 7.4.9
 ### Linguagens de Programação
     JavaScript - Versão: ECMAScript 2018
 ## Banco de Dados
-    Mysql Workbench - Versão: 8.0
+    Mysql Workbench - Versão: 8.0.21
 ## Servidor 
-    Apache - Versão: 2.4.43
-## [Testes](TESTES.md)
+    Apache - Versão: 2.4.46
 
 # REGRAS E PADRÕES DE USO DO GIT
 ## Commits:
