@@ -1,7 +1,7 @@
 # Supermercado KingFood
 Trabalho da Disciplina de Engenharia de Software 2021/1 - UFLA<br />
 
-Nomes: Gustavo Carvalho Silva.<br />
+Nome: Gustavo Carvalho Silva.<br />
 
 # DESCRIÇÃO
 <p>
