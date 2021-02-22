@@ -1,0 +1,394 @@
+/* ========================================================
+*
+* Melon - Flat & Responsive Admin Template
+*
+* ========================================================
+*
+* File: login.css
+* Description: Login template styling
+* Version: 1.0
+*
+* ======================================================== */
+
+.clearfix {
+  *zoom: 1;
+}
+input:-webkit-autofill {
+    -webkit-box-shadow: 0 0 0 30px white inset !important;
+}
+
+/* Cor do texto do autocomplete */
+input:-webkit-autofill {
+    -webkit-text-fill-color: black !important;
+}
+
+.clearfix:before,
+.clearfix:after {
+  display: table;
+  content: "";
+  line-height: 0;
+}
+.clearfix:after {
+  clear: both;
+}
+.login {
+  background-color: #3e3a3a;
+  padding-top: 60px;
+  border-top: 4px solid #d84242; }
+
+  /* Helper */
+
+}
+.btn-entrar {
+    color: #ffffff;
+    background-color: #4d7496;
+    z-index: 2;
+    border-radius: 5px;
+	width: 100%;
+}
+.btn-entrar:hover,
+.btn-entrar:focus {
+  color: #ffffff;
+  background-color: #b94a48;
+}
+
+.redefinicao{
+	font-family: "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    color: #4d7496;
+    font-size: 20px;
+	text-align: center;
+	margin-top: -33px;
+}
+.img-user {
+	/*    height: 290px;
+    /* width: 200px;
+    /* position: absolute; */
+    /* top: 120px; */
+    /* right: 71.5em; 
+    display: block;
+    margin-left: auto;
+    margin-right: auto;*/
+	    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: auto;
+    height: auto;
+    max-width: 200px;
+    margin-top: 80px;
+    max-height: 150px;
+    margin-bottom: 35px;
+}
+.img-button-back {
+	width: 50px;
+    margin-top: 50px;
+    margin-left: -20px;
+}
+.login .logo,
+.login .single-sign-on,
+.login .footer {
+  margin: 0 auto;
+  text-align: center;
+}
+.login .logo {
+  padding: 15px;
+  font-size: 23px;
+}
+.login .box {
+	background-color: #fff;
+    width: 350px;
+    margin: 0 auto;
+    border: 1px solid #FFF;
+    border-top: 5px solid #4d7496;
+    border-radius: 15px;
+  /* * * * * * * * * * * *
+		 * Inner Box
+		 * * * * * * * * * * * */
+
+}
+.login .box .content {
+  /*padding: 30px;
+  padding-top: 10px;
+  padding-bottom: 15px;*/
+	padding-right: 30px;
+    padding-left: 30px;
+    margin-top: -50px;
+    margin-bottom: 30px;
+
+}
+.login .box form {
+  padding: 0;
+  margin: 0;
+}
+.login .box .form-title {
+  text-align: center;
+  font-weight: 300;
+  margin-bottom: 25px;
+}
+.login .box .form-group {
+  margin: 0;
+  padding: 0;
+  margin-bottom: 15px;
+}
+.login .box .form-actions {
+  background-color: #fff;
+  border-top: none;
+  padding: 10px 0;
+  margin: 0;
+}
+.login .box .input-icon input {
+  border-left: 0.3em solid #b94a48;
+}
+.login .box .has-error .input-icon input {
+  border-left-color: #b94a48;
+}
+.login .box .has-success .input-icon input {
+  border-left-color: #468847;
+}
+.login .box .checkbox {
+  margin-top: 7px;
+}
+.login .box .inner-box {
+  background-color: #f9f9f9;
+  border-top: 1px solid #c0c0c0;
+  -webkit-box-shadow: 0 1px 1px rgba(0, 0, 0, 0.05) inset;
+  -moz-box-shadow: 0 1px 1px rgba(0, 0, 0, 0.05) inset;
+  box-shadow: 0 1px 1px rgba(0, 0, 0, 0.05) inset;
+}
+.login .box .inner-box .content {
+  padding: 12px 30px;
+  text-align: center;
+}
+.login .box .inner-box a {
+  color: #555555;
+  font-size: 12px;
+  font-weight: 600;
+}
+.login .box .inner-box a:hover {
+  text-decoration: none;
+  color: #4d7496;
+}
+.login .box .inner-box .close {
+  font-size: 12px;
+  margin-top: -3px;
+  margin-right: -20px;
+}
+.login .box .inner-box .close.hide-default {
+  display: none;
+}
+.login .box .inner-box form {
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+.login .box .inner-box a + form {
+  margin-top: 20px;
+}
+.login .box .inner-box .form-group {
+  margin-bottom: 10px;
+}
+.login .box .inner-box .forgot-password-done {
+  padding: 10px 0;
+}
+.login .box .inner-box .forgot-password-done .success-icon,
+.login .box .inner-box .forgot-password-done .danger-icon {
+  display: block;
+  font-size: 30px;
+  padding: 15px;
+  padding-top: 0;
+}
+.login .box .inner-box .forgot-password-done .success-icon {
+  color: #94b86e;
+}
+.login .box .inner-box .forgot-password-done .danger-icon {
+  color: #e25856;
+}
+.login .box .inner-box .forgot-password-done span {
+  font-weight: 600;
+}
+.login .single-sign-on {
+  width: 350px;
+  padding: 15px 0;
+  opacity: 0.5;
+  -webkit-transition: opacity 200ms ease-out;
+  -moz-transition: opacity 200ms ease-out;
+  -o-transition: opacity 200ms ease-out;
+  transition: opacity 200ms ease-out;
+}
+.login .single-sign-on:hover {
+  opacity: 1;
+}
+.login .single-sign-on span {
+  text-transform: uppercase;
+  font-weight: 600;
+  margin-bottom: 15px;
+  display: block;
+  color: #888888;
+}
+.login .single-sign-on .btn i {
+  padding-right: 5px;
+}
+.login .footer {
+  width: 350px;
+  padding-top: 30px;
+}
+.login .footer a {
+  font-size: 13px;
+  color: #6f6f6f;
+}
+.login .footer a:hover {
+  text-decoration: none;
+  color: #4d7496;
+}
+.login .spacing-top {
+  padding-top: 7px !important;
+}
+textarea, 
+input[type="text"], 
+input[type="password"], 
+input[type="datetime"], 
+input[type="datetime-local"], 
+input[type="date"], 
+input[type="month"], 
+input[type="time"], 
+input[type="week"], 
+input[type="number"], 
+input[type="email"], 
+input[type="url"], 
+input[type="search"], 
+input[type="tel"], 
+input[type="color"], 
+.uneditable-input {
+	padding: 12px 6px !important;
+}
+
+.label-float{
+  position: relative;
+  padding-top: 13px;
+}
+.label-float2{
+  position: relative;
+  padding-top: 13px;
+}
+
+.label-float input{
+  border: 1px solid lightgrey;
+  border-radius: 5px;
+  outline: none;
+  width:100%;
+  padding: 15px 20px;
+  font-size: 16px;
+  transition: all .1s linear;
+  -webkit-transition: all .1s linear;
+  -moz-transition: all .1s linear;
+  -webkit-appearance:none;
+}
+
+.icon-eye-open{
+	position: absolute;
+    float: right;
+    width: 100%;
+    outline: none;
+    top: 25px;
+    right: 10px;
+    font-size: 18px;
+    cursor: pointer;
+    color: lightgrey;
+}
+.icon-eye-open-Hover{
+	color: #01793d;
+}
+
+.label-float input:focus{
+  border: 2px solid #4d7496;
+}
+
+.label-float input::placeholder{
+  color:transparent;
+}
+
+.label-float label{
+  pointer-events: none;
+  position: absolute;
+  top: calc(50% - 8px);
+  left: 15px;
+  transition: all .1s linear;
+  -webkit-transition: all .1s linear;
+  -moz-transition: all .1s linear;
+  background-color: white;
+  padding: 5px;
+  box-sizing: border-box;
+}
+
+.label-float input:required:invalid + label{
+  color:#999;
+}
+.label-float input:focus:required:invalid{
+  border: 2px solid red;
+}
+
+.label-float input:step:invalid + label{
+  color:#999;
+}
+.label-float input:focus:step:invalid{
+  border: 2px solid red;
+}
+
+.label-float input:focus + label,
+.label-float input:not(:placeholder-shown) + label{
+  font-size: 13px;
+  top: 0;
+  color: #4d7496;
+}
+
+
+
+.labell {
+  position: relative;
+  display: block;
+  float: left;
+  margin-right: 7px;
+  width: 15px;
+  height: 16px;
+  border: 2px solid #c8ccd4;
+  border-radius: 100%;
+  -webkit-tap-highlight-color: transparent;
+  margin-left: 15px;
+  color: #999;
+}
+.labell:after {
+	right: 0.72;
+    content: '';
+    position: absolute;
+    top: 0.9px;
+    width: 10px;
+    height: 10px;
+    border-radius: 100%;
+    background: #01793d;
+    transform: scale(0);
+    transition: all 0.2s ease;
+    opacity: 0.01;
+    pointer-events: none;
+	margint-right:
+
+}
+
+.labell:after {
+  transform: scale(3.6);
+}
+input[type="radio"]:checked + .labell {
+    border-color: #01793d;
+}
+input[type="radio"]:checked + .labell:after {
+  transform: scale(1);
+  transition: all 0.2s cubic-bezier(0.35, 0.9, 0.4, 0.9);
+  opacity: 1;
+}
+
+.hidden {
+  display: none;
+}
+
+
+
+
+
+
