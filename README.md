@@ -23,6 +23,9 @@ Os tipos de usuário do sistema são clientes e gerentes.<br />
     Mysql Workbench - Versão: 8.0.21
 ## Servidor 
     Apache - Versão: 2.4.46
+## Teste Case
+    Selenium - Versão: 3.17  
+    
 
 # REGRAS E PADRÕES DE USO DO GIT
 ## Commits:
